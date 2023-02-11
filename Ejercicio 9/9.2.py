@@ -1,0 +1,7 @@
+print("Escoga un numero, pulse enter, despues elija su ponderacion y pulse enter hasta que haya escogido 3 numeros. La suma de su ponderacion no puede ser mayor que 100")
+numero1 = int(input())
+ponderacion1 = int(input())
+numero2 = int(input())
+ponderacion2 = int(input())
+numero3 = int(input())
+ponderacion3 = int(input())
