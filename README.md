@@ -1,1 +1,2 @@
-# Ejercicios-de-Introducci-n-a-la-Algor-tmica
+##Ejercicios de Introducción a la Algorítmica
+Este  repositorio esta compuesto por una serie de ejercicios a realizar
