@@ -27,5 +27,6 @@ class cuenta_bancaria:
             print("Se ha transferido", cantidad, "€ de la cuenta de", self.nombre, "a la cuenta de", cuenta.nombre)
             print("El saldo actual de", self.nombre, "es de", self.saldo, "€")
             print("El saldo actual de", cuenta.nombre, "es de", cuenta.saldo, "€")
-    
+    def consultar_mi_saldo(self):
+        print("El saldo actual de", self.nombre, "es de", self.saldo, "€")
     
