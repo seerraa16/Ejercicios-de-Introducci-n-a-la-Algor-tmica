@@ -29,3 +29,8 @@ class cuenta_bancaria:
             print("El saldo actual de", cuenta.nombre, "es de", cuenta.saldo, "€")
     def consultar_mi_saldo(self):
         print("solo le quedan: ", self.saldo, "€")
+    def descubierto(self):
+        if self.saldo < 0:
+            print("usted tiene un descubierto de", self.saldo, "€")
+        else:
+            print("usted no tiene descubierto")
