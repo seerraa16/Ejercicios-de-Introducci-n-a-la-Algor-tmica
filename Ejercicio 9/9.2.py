@@ -5,7 +5,12 @@ numero2 = int(input())
 ponderacion2 = int(input())
 numero3 = int(input())
 ponderacion3 = int(input())
-print("Vamos a calcular la media ponderada de estos 3 numeros")
+def funcion_decoradora(funcion_parametro):
+    def funcion_interior():
+        print("Vamos a calcular la media ponderada de los numeros que has escogido")
+        funcion_parametro()
+        print("La media ponderada es: ", media_ponderada)
+    return funcion_interior
+@funcion_decoradora
 def media_ponderada():
     media_ponderada = ((numero1*ponderacion1)+(numero2*ponderacion2)+(numero3*ponderacion3))/(ponderacion1+ponderacion2+ponderacion3)
-print("La media ponderada de los numeros que ha escogido es", media_ponderada)
